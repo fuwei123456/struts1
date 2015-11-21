@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config 
+PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" 
+"http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+	<!-- 配置 formbeans -->
+	<form-beans>
+		<form-bean name="registerForm" 
+			type="com.laozhang.struts1.form.RegisterForm"  />
+	</form-beans>
+	 
+	<!-- 配置ActionMapping -->
+	<action-mappings>
+		<action path="/register" name="registerForm" 
+			scope="request"
+			type="com.laozhang.struts1.action.RegisterAction">
+			<forward name="success" path="/ok.jsp"></forward>
+		</action>
+		
+		
+	</action-mappings>
+	
+		
+		
+</struts-config>
+
