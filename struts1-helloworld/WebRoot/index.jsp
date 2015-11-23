@@ -67,6 +67,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   					<html:checkbox property="hobbies" value="游戏">游戏</html:checkbox>
   					<html:checkbox property="hobbies" value="电影">电影</html:checkbox>
   					<html:checkbox property="hobbies" value="购物">购物</html:checkbox>
+  					<html:checkbox property="hobbies" value="钓鱼">钓鱼</html:checkbox>
   				</td>
   			</tr>
   			<tr>
